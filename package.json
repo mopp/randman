@@ -1,0 +1,16 @@
+{
+    "name": "randman",
+    "version": "0.0.1",
+    "description": "This is API server for randomizing.",
+    "main": "src/app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "mopp",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.15.2",
+        "express": "^4.14.0",
+        "morgan": "^1.7.0"
+    }
+}
