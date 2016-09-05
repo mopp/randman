@@ -17,6 +17,6 @@ App.set('base_path', Config.base_path);
 
 const V1 = require('./api/v1.js');
 
-App.use(Express.static(Config.base_path))
+App.use('/v1', Express.static(Config.base_path))
 App.use('/v1', V1(Express.Router()));
 App.listen(Config.port);
